@@ -124,7 +124,8 @@ section h2{font-size:1.15em;color:#22d3ee;border-left:4px solid #22d3ee;padding-
   line-height:1;
 }
 .si.act{background:#0ea5e9;color:#fff}
-.si.logo{background:transparent;color:#22d3ee;font-size:.42em;font-weight:700;writing-mode:vertical-rl;height:44px;border:1.5px solid rgba(34,211,238,.35);border-radius:7px;letter-spacing:1px}
+.si.logo{background:transparent;width:22px;height:52px;border:none;display:flex;align-items:center;justify-content:center}
+.si.logo svg{width:18px;height:auto}
 .m-ct{padding:10px 14px;min-height:300px}
 .m-bc{font-size:.68em;color:#64748b;margin-bottom:4px}
 .m-bc b{color:#e2e8f0}
@@ -316,7 +317,7 @@ footer{max-width:1080px;margin:60px auto 0;padding:0 20px;text-align:center;font
 <div class="diagram">
   <div class="mock-viewer">
     <div class="m-sb">
-      <div class="si logo">·지메뷰·</div>
+      <div class="si logo"><svg viewBox="0 0 34 80" fill="none"><rect x="7.5" y="2" width="19" height="76" rx="9.3" stroke="rgba(200,230,255,.7)" stroke-width="2"/><g fill="rgba(220,240,255,.85)" font-weight="700" text-anchor="middle" dominant-baseline="middle" font-family="sans-serif"><text x="17" y="12" font-size="16">&#xB7;</text><text x="17" y="25" font-size="8">&#xC9C0;</text><text x="17" y="40" font-size="8">&#xBA54;</text><text x="17" y="55" font-size="8">&#xBDF0;</text><text x="17" y="68" font-size="16">&#xB7;</text></g></svg></div>
       <div class="si"><svg viewBox="0 0 24 24"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></div>
       <div class="si act"><svg viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg></div>
       <div class="si"><svg viewBox="0 0 24 24"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/></svg></div>
@@ -358,8 +359,8 @@ footer{max-width:1080px;margin:60px auto 0;padding:0 20px;text-align:center;font
   <div class="callout l yellow" style="top:52px"><b>검색/필터</b>키워드, 날짜, 첨부, 정렬.</div>
   <div class="callout r green" style="top:89px"><b>탭</b>전체 / 받은 / 보낸 필터.</div>
   <div class="callout r cyan" style="top:221px"><b>메시지 카드</b>발신자, 날짜, 내용, 받는이 표시.</div>
-  <div class="callout l white" style="top:130px"><b>사이드바</b>홈 / 쪽지 / 대화 / 통계 / 즐겨찾기.</div>
-  <div class="callout l yellow" style="top:212px"><b>즐겨찾기 별</b>제목 옆 + 각 메시지 우측. 클릭 시 등록/해제.</div>
+  <div class="callout l white" style="top:108px"><b>사이드바</b>홈 / 쪽지 / 대화 / 통계 / 즐겨찾기.</div>
+  <div class="callout l yellow" style="top:181px"><b>즐겨찾기 별</b>제목 옆 + 각 메시지 우측. 클릭 시 등록/해제.</div>
 </div>
 
 <div class="cards">
@@ -395,7 +396,7 @@ footer{max-width:1080px;margin:60px auto 0;padding:0 20px;text-align:center;font
 <div class="diagram">
   <div class="mock-viewer">
     <div class="m-sb">
-      <div class="si logo">·지메뷰·</div>
+      <div class="si logo"><svg viewBox="0 0 34 80" fill="none"><rect x="7.5" y="2" width="19" height="76" rx="9.3" stroke="rgba(200,230,255,.7)" stroke-width="2"/><g fill="rgba(220,240,255,.85)" font-weight="700" text-anchor="middle" dominant-baseline="middle" font-family="sans-serif"><text x="17" y="12" font-size="16">&#xB7;</text><text x="17" y="25" font-size="8">&#xC9C0;</text><text x="17" y="40" font-size="8">&#xBA54;</text><text x="17" y="55" font-size="8">&#xBDF0;</text><text x="17" y="68" font-size="16">&#xB7;</text></g></svg></div>
       <div class="si"><svg viewBox="0 0 24 24"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></div>
       <div class="si"><svg viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg></div>
       <div class="si act"><svg viewBox="0 0 24 24"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/></svg></div>
@@ -434,9 +435,9 @@ footer{max-width:1080px;margin:60px auto 0;padding:0 20px;text-align:center;font
   </div>
 
   <div class="callout r cyan" style="top:80px"><b>방 정보</b>방ID, 참여자, 총 건수, 마지막 날짜.</div>
-  <div class="callout l yellow" style="top:50px"><b>즐겨찾기 별</b>제목 + 각 메시지마다 별 표시. 노란색 = 등록됨.</div>
-  <div class="callout l green" style="top:148px"><b>상대방 메시지</b>좌측 배치. 녹색 이름. 첨부파일은 뱃지로 표시.</div>
-  <div class="callout r yellow" style="top:267px"><b>본인 메시지</b>우측 배치. 청록색 이름.</div>
+  <div class="callout l yellow" style="top:0px"><b>즐겨찾기 별</b>제목 + 각 메시지마다 별 표시. 노란색 = 등록됨.</div>
+  <div class="callout l green" style="top:139px"><b>상대방 메시지</b>좌측 배치. 첨부파일은 뱃지로 표시.</div>
+  <div class="callout r yellow" style="top:267px"><b>본인 메시지</b>우측 배치.</div>
 </div>
 
 <div class="cards">
